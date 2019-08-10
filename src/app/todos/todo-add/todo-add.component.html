@@ -1,1 +1,11 @@
-<p>todo-add works!</p>
+<app-form title='Add new item'>
+    <app-form-input
+        label='Title'
+        placeholder="Title"
+    />
+    <app-form-input
+        label='Text'
+        placeholder="Text"
+    />
+    <app-form-button submitText='Add #${this.props.newItemNumber}' />
+</app-form>

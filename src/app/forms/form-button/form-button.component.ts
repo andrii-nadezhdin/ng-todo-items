@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-form-button',
-  templateUrl: './form-button.component.html',
-  styleUrls: ['./form-button.component.css']
+  templateUrl: './form-button.component.html'
 })
 export class FormButtonComponent implements OnInit {
 
